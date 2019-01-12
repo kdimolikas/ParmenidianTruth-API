@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml">
+<key id="x" for="node">
+<default>0</default>
+</key>
+<key id="y" for="node">
+<default>0</default>
+</key>
+<graph edgedefault="directed">
+<node id="t_schema_vers">
+<data key="x">0.0</data>
+<data key="y">0.0</data>
+</node>
+<node id="t_vo_acl">
+<data key="x">183.03767707112948</data>
+<data key="y">269.8379959089695</data>
+</node>
+<node id="t_transfer">
+<data key="x">0.0</data>
+<data key="y">288.17933930981684</data>
+</node>
+<node id="t_channel_acl">
+<data key="x">102.89644350014102</data>
+<data key="y">0.0</data>
+</node>
+<node id="t_channel">
+<data key="x">0.0</data>
+<data key="y">141.7328010951548</data>
+</node>
+<node id="t_job_log">
+<data key="x">205.1731466378013</data>
+<data key="y">0.0</data>
+</node>
+<node id="t_channel_vo_share">
+<data key="x">281.7951145525342</data>
+<data key="y">295.52773169490706</data>
+</node>
+<node id="t_logical">
+<data key="x">30.99787765396142</data>
+<data key="y">211.9941734053243</data>
+</node>
+<node id="t_file">
+<data key="x">0.0</data>
+<data key="y">239.9227414938262</data>
+</node>
+<node id="t_agent">
+<data key="x">312.0</data>
+<data key="y">194.98926428283212</data>
+</node>
+<node id="t_job">
+<data key="x">0.0</data>
+<data key="y">183.9055554772002</data>
+</node>
+<node id="t_trace">
+<data key="x">28.652183597010282</data>
+<data key="y">312.0</data>
+</node>
+<edge source="t_job" target="t_channel"/>
+<edge source="t_trace" target="t_transfer"/>
+<edge source="t_file" target="t_job"/>
+<edge source="t_logical" target="t_file"/>
+<edge source="t_transfer" target="t_file"/>
+<edge source="t_logical" target="t_job"/>
+</graph>
+</graphml>
