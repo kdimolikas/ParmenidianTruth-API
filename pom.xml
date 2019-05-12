@@ -11,14 +11,7 @@
   <build>
     <sourceDirectory>src</sourceDirectory>
     <testSourceDirectory>test</testSourceDirectory>
-<!--     <resources> -->
-<!--       <resource> -->
-<!--         <directory>src</directory> -->
-<!--         <excludes> -->
-<!--           <exclude>**/*.java</exclude> -->
-<!--         </excludes> -->
-<!--       </resource> -->
-<!--     </resources> -->
+
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -195,45 +188,35 @@
 		<artifactId>wstx-asl</artifactId>
 		<version>3.2.6</version>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/xuggle/xuggle-xuggler -->
 
-	
-<!-- 	<dependency> -->
-<!-- 		<groupId>xuggle</groupId> -->
-<!-- 		<artifactId>xuggler</artifactId> -->
-<!-- 		<version>5.4</version> -->
-<!-- 	</dependency> -->
-<!-- 	<dependency> -->
-<!-- 		<groupId>xuggle</groupId> -->
-<!-- 		<artifactId>xuggler-noarch</artifactId> -->
-<!-- 		<version>5.4</version> -->
-<!-- 	</dependency> -->
-<!-- 	<dependency> -->
-<!-- 		<groupId>xuggle</groupId> -->
-<!-- 		<artifactId>xuggler-arch-x86_64-xuggle-darwin11</artifactId> -->
-<!-- 		<version>5.4</version> -->
-<!-- 	</dependency> -->
-<!-- 	<dependency> -->
-<!-- 		<groupId>xuggle</groupId> -->
-<!-- 		<artifactId>xuggler-arch-x86_64-w64-mingw32</artifactId> -->
-<!-- 		<version>5.4</version> -->
-<!-- 	</dependency> -->
-<!-- 	<dependency> -->
-<!-- 		<groupId>xuggle</groupId> -->
-<!-- 		<artifactId>xuggler-arch-x86_64-pc-linux-gnu</artifactId> -->
-<!-- 		<version>5.4</version> -->
-<!-- 	</dependency> -->
-<!-- 	<dependency> -->
-<!-- 		<groupId>xuggle</groupId> -->
-<!-- 		<artifactId>xuggler-arch-i386-xuggle-darwin11</artifactId> -->
-<!-- 		<version>5.4</version> -->
-<!-- 	</dependency> -->
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 <dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
     <version>2.6</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.4.0-b180830.0359</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/javax.activation/javax.activation-api -->
+<dependency>
+    <groupId>javax.activation</groupId>
+    <artifactId>javax.activation-api</artifactId>
+    <version>1.2.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime -->
+<dependency>
+    <groupId>org.glassfish.jaxb</groupId>
+    <artifactId>jaxb-runtime</artifactId>
+    <version>2.4.0-b180830.0438</version>
+</dependency>
+
 
   </dependencies>
 </project>
