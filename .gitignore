@@ -1,3 +1,5 @@
 /bin/
 /target/
-/README.md
+/.classpath
+/.settings/
+/.project
